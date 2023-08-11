@@ -4,7 +4,7 @@ namespace MvcEticaret.Controllers
 {
     public class NavigationController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Navigation()
         {
             return View();
         }
