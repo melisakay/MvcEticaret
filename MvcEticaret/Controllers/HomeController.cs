@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MvcEticaret.Models;
 using System.Diagnostics;
+using System.Reflection;
 
 namespace MvcEticaret.Controllers
 {
@@ -15,7 +16,8 @@ namespace MvcEticaret.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            
+            return View(Products);
         }
 
         public IActionResult Privacy()
